@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: black;
+}
+header img {
+  /* The logo of the website */
+  width: 25%;
+  height: auto;
+}
+header nav {
+  float: right;
+  padding-top: 3em;
+  padding-right: 3em;
+  text-align: center;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav li {
+  display: inline-block;
+}
+header nav li a {
+  color: #e2e2e2;
+  text-decoration: none;
+  background-color: #272727;
+  border-radius: 1.7em;
+  padding: 14px 16px;
+}
+header nav li a:hover {
+  background-color: #414141;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
