@@ -3,7 +3,9 @@ body {
 }
 
 header {
-    background-color: black;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff5b;
     img {
         /* The logo of the website */
         width: 25%;
@@ -34,4 +36,12 @@ header {
         padding-right: 3em;
         text-align:center;
     }
+}
+
+#home-img {
+    background: black url(../img/maunga_club_cabin.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: -7em;
+    padding-top: 500px;
+    padding-bottom: 250px;
 }
