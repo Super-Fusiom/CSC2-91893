@@ -1,11 +1,14 @@
+$block-color: #ffffff5b;
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 header {
+    z-index: 999;
     position: sticky;
     top: 0;
-    background-color: #ffffff5b;
+    background-color: $block-color;
     img {
         /* The logo of the website */
         width: 25%;
@@ -38,10 +41,16 @@ header {
     }
 }
 
-#home-img {
-    background: black url(../img/maunga_club_cabin.jpg) no-repeat center;
+#home {
+    background: black url(../img/mountain_view_1.jpg) no-repeat center;
     background-size: cover;
     margin-top: -7em;
     padding-top: 500px;
     padding-bottom: 250px;
+}
+
+#home-block {
+    background-color: $block-color;
+    color: black;
+    text-align: center;
 }

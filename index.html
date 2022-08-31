@@ -4,28 +4,48 @@
         <title>Manunga Club</title>
         <link rel=stylesheet href="style/style.css" type="text/css">
         <link rel="stylesheet" href="style/normalize.css" type="text/css">
-        <script src="script/index.js"></script>
         <!--AOS Library-->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--Font of choice-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+        <!--Smooth Scrolling-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        <script src="script/scroll.js"></script>
     </head>
     <body>
-    <script>
-      AOS.init();
-    </script>
+      <script>
+        AOS.init();
+      </script>
       <header>
         <a href="index.html"><img src="img/Maunga_Club_white.png" alt="Manunga Club Logo"></a>
         <nav id="nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href=#home>Home</a></li>
+                <li><a href="#chalet">Chalet</a></li>
+                <li><a href="#membership">Membership</a></li>
             </ul>
         </nav>
       </header>
-      <section id="home-img">
-        <h1>Hello World</h1>
-        <div data-aos="fade-up">
+      <section id="home">
+        <div id="home-block" data-aos="fade-up">
+          <h1>Yummy town?</h1>
+        </div>
+      </section>
+      <section id="chalet">
+        <div id="chalet-block">
 
         </div>
       </section>
+      <section id="membership">
+        <div id="membership-block">
+
+        </div>
+      </section>
+      <footer>
+
+      </footer>
     </body>
 </html>
