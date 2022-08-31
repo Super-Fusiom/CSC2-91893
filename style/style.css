@@ -6,7 +6,7 @@ header {
   z-index: 999;
   position: sticky;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.3568627451);
+  background-color: #000000;
 }
 header img {
   /* The logo of the website */
@@ -14,9 +14,10 @@ header img {
   height: auto;
 }
 header nav {
+  margin-left: 100px;
   float: right;
   padding-top: 3em;
-  padding-right: 3em;
+  padding-right: 1em;
   text-align: center;
 }
 header nav ul {
@@ -42,15 +43,47 @@ header nav li a:hover {
 #home {
   background: black url(../img/mountain_view_1.jpg) no-repeat center;
   background-size: cover;
-  margin-top: -7em;
-  padding-top: 500px;
+  padding-top: 200px;
   padding-bottom: 250px;
 }
 
 #home-block {
+  margin-top: 20em;
   background-color: rgba(255, 255, 255, 0.3568627451);
-  color: black;
+  color: #000000;
   text-align: center;
+}
+#home-block a {
+  display: inline-block;
+  color: inherit;
+  font-size: inherit;
+  margin: 30px 5px;
+  border: rgba(255, 255, 255, 0.3568627451) 2px solid;
+  min-width: 150px;
+  text-decoration: none;
+  padding: 1em;
+}
+
+#chalet {
+  background: black url(../img/mountain_view_dark.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.block {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.block-content {
+  background-color: rgba(255, 255, 255, 0.3568627451);
+  border-radius: 5em;
+  margin: 1em;
+  text-align: center;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
