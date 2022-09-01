@@ -1,12 +1,16 @@
+/* Variables for scss only */
 $block-color: #ffffff5b;
 $font-pri: #000000;
 $font-sec: #ffffffff;
 
 
+/* Universal settings */
+/* Font choice for the entire webpage */
 body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
+/* Header including nav bar and logo*/
 header {
     z-index: 999;
     position: sticky;
@@ -16,6 +20,7 @@ header {
         /* The logo of the website */
         width: 25%;
         height:auto;
+        padding-left: 4em;
     }
     nav {
         ul {
@@ -37,23 +42,30 @@ header {
                 color:white;
             }
         }
-        margin-left:100px;
         float: right;
         padding-top: 3em;
-        padding-right: 1em;
+        padding-right: 4em;
         text-align:center;
     }
 }
 
+footer {
+    text-align: center;
+    color: $font-sec;
+    background-color: $font-pri;
+}
+
+/* Section specific classes */
+
 #home {
     background: black url(../img/mountain_view_1.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 250px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
-#home-block {
-    margin-top: 20em;
+.home-block {
+    margin-top: 15em;
     background-color: $block-color;
     color: $font-pri;
     text-align: center;
@@ -72,15 +84,29 @@ header {
 #chalet {
     background: black url(../img/mountain_view_dark.jpg) no-repeat center;
     background-size:cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color:$font-sec;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color:$font-pri;
+}
+
+#membership {
+    background: black url(../img/maunga_club_cabin.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: $font-pri;
 }
 
 .block {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding-left: 3em;
+    padding-right: 3em;
+    .title {
+        width:25%;
+        margin-left:40%
+    }
 }
 
 .block-content {
