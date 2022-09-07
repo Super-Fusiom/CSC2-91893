@@ -4,6 +4,12 @@
 body {
   font-family: "Red Hat Display", sans-serif;
 }
+body p {
+  font-size: 20px;
+}
+body li {
+  font-size: 20px;
+}
 
 /* Header including nav bar and logo*/
 header {
@@ -49,6 +55,9 @@ footer {
   color: white;
   background-color: #000000;
 }
+footer p {
+  margin: 0;
+}
 
 /* Section specific classes */
 #home {
@@ -60,7 +69,7 @@ footer {
 
 .home-block {
   margin-top: 15em;
-  background-color: rgba(255, 255, 255, 0.3568627451);
+  background-color: rgba(255, 255, 255, 0.6431372549);
   color: #000000;
   text-align: center;
 }
@@ -69,7 +78,7 @@ footer {
   color: inherit;
   font-size: inherit;
   margin: 30px 5px;
-  border: rgba(255, 255, 255, 0.3568627451) 2px solid;
+  border: rgba(255, 255, 255, 0.6431372549) 2px solid;
   min-width: 150px;
   text-decoration: none;
   padding: 1em;
@@ -104,7 +113,7 @@ footer {
 }
 
 .block-content {
-  background-color: rgba(255, 255, 255, 0.3568627451);
+  background-color: rgba(255, 255, 255, 0.6431372549);
   border-radius: 5em;
   margin: 1em;
   text-align: center;

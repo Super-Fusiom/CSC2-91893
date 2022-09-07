@@ -1,5 +1,5 @@
 /* Variables for scss only */
-$block-color: #ffffff5b;
+$block-color: #ffffffa4;
 $font-pri: #000000;
 $font-sec: #ffffffff;
 
@@ -8,6 +8,12 @@ $font-sec: #ffffffff;
 /* Font choice for the entire webpage */
 body {
     font-family: 'Red Hat Display', sans-serif;
+    p {
+        font-size:20px;
+    }
+    li {
+        font-size:20px;
+    }
 }
 
 /* Header including nav bar and logo*/
@@ -53,6 +59,9 @@ footer {
     text-align: center;
     color: $font-sec;
     background-color: $font-pri;
+    p {
+        margin:0;
+    }
 }
 
 /* Section specific classes */
